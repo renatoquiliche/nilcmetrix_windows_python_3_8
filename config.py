@@ -9,6 +9,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DIR = os.path.join(BASE_DIR, 'tools', '') # Asegura que termine en barra /
 
+JAVA_BIN = "C:/Program Files/Java/jdk-17/bin/java.exe"
 # Ahora las rutas se construirán correctamente
 NLPNET_DATA_DIR = DIR + 'nlpnet-py3' # Cambié 'nlpnet' por 'nlpnet-py3' según tu imagen
 
